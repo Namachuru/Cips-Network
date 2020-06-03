@@ -1,0 +1,168 @@
+* {margin: 0;
+	padding: 0;
+box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0;}
+
+img {vertical-align: middle;}
+
+
+.wrapper {
+	width: 100%;
+}
+
+.img-banner {
+	display: none;
+}
+
+.img-info {
+	width: 100%;
+}
+
+.img-info h2{
+	padding: 30px 30px 20px;
+	font-family: ariel;
+	font-size: 50px;
+	color: #111;
+	line-height: 44px;
+}
+
+.img-info h3{
+	padding: 0px 30px 20px;
+	font-family: ariel;
+	font-size: 26px;
+	color: #111;
+	line-height: 34px;
+}
+
+.img-info p{
+	padding: 0px 30px 20px;
+	font-family: ariel;
+	font-size: 16px;
+	color: #111;
+	line-height: 24px;
+}
+
+.img-info ul{
+	padding: 0px 30px 20px;
+	font-family: ariel;
+	font-size: 16px;
+	color: #111;
+	line-height: 24px;
+}
+
+.img-1stpic {
+	width: 30%;
+}
+
+@media only screen and (min-width: 768px) {
+	.img-banner {
+		display: block;
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	.img-page {
+		display: none;
+	}
+	.wrapper {
+		width: 600px;
+		margin: 0 auto;	
+	}
+	.img-info h2{
+		padding: 20px 0px 0px;
+	}
+	.img-info p{
+		padding: 20px 0px 0px;
+	}
+	.img-1stpic {
+		padding-top: 30px;
+		width: 30%;
+	}
+}
+@media only screen and (min-width: 1000px) {
+	.wrapper {
+		width: 1000px;
+	}
+	.img-info {
+		width: 50%;
+		float: right;
+	}
+	.img-info h2{
+		padding: 20px 0px 0px 30px;
+	}
+	.img-info p{
+		padding: 20px 0px 0px 30px;
+	}
+	.img-1stpic {
+		padding-top: 0px;
+		width: 30%;
+		float: left;
+	}
+}
+
+body
+{
+	margin: 0;
+	padding 0;
+	font-family: sans-serif;
+}
+nav
+{
+	width: 100%;
+	background: #222222;
+}
+ul
+{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+ul li:hover
+{
+	background: #00416b;
+}
+ul li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.toggle
+{
+	width: 100%;
+	padding: 10px 20px;
+	background: #001f44;
+	text-align: right;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 30px;
+	display: none;
+}
+@media (max-width:768px)
+{
+	.toggle
+	{
+		display: block;
+	}
+	.img-page {
+		display: block;
+	}
+	ul
+	{
+		width: 100%;
+		display: none;
+	}
+	ul li
+	{
+		display: block;
+		text-align: centre;
+	}
+	.active
+	{
+		display: block;
+	}
+}

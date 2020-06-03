@@ -1,0 +1,145 @@
+<HTML>
+	<HEAD>
+		<title>KMW02303004</title>
+		<meta name=""viewport" content="width-device-width", initial-scale=1.0">
+		<link rel="stylesheet" href="trend.css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	</HEAD>
+	
+	<BODY>
+		<img class="img-banner" src="../banner.png" alt="Banner"/>
+		<nav>
+			<div class="toggle">
+				<i class="fa fa-bars menu" aria-hidden="true"></i>
+			</div>
+			<ul>
+				<li><a href="../kimomwe motors.php">Home</a></li>
+				<li><a href="../about.html">About</a></li>
+				<li><a href="../classic series.php">Classic Series</a></li>
+				<li><a href="../performer class.php">Performer Class</a></li>
+				<li><a href="../contact.html">Contacts</a></li>
+			</ul>
+		</nav>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.menu').click(function(){
+					$('ul').toggleClass('active');
+				})
+			})
+		</script>
+		
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+  				<div class="numbertext">1 / 12</div>
+				<img src="..\2008 =)) 2010\KMW02303004-1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">2 / 12</div>
+  				<img src="..\2008 =)) 2010\KMW02303004-2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">3 / 12</div>
+ 		 		<img src="..\2008 =)) 2010\KMW02303004-3.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">4 / 12</div>
+				<img src="..\2008 =)) 2010\KMW02303004-4.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">5 / 12</div>
+  				<img src="..\2008 =)) 2010\KMW02303004-5.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">6 / 12</div>
+ 		 		<img src="..\2008 =)) 2010\KMW02303004-6.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">7 / 12</div>
+				<img src="..\2008 =)) 2010\KMW02303004-7.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">8 / 12</div>
+				<img src="..\2008 =)) 2010\KMW02303004-8.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">9 / 12</div>
+				<img src="..\2008 =)) 2010\KMW02303004-9.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">10 / 12</div>
+				<img src="..\2008 =)) 2010\KMW02303004-10.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">11 / 12</div>
+				<img src="..\2008 =)) 2010\KMW02303004-11.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">12 / 12</div>
+				<img src="..\2008 =)) 2010\KMW02303003-12.jpg" style="width:100%">
+			</div>
+			
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+  			<span class="dot" onclick="currentSlide(1)"></span> 
+  			<span class="dot" onclick="currentSlide(2)"></span> 
+  			<span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+  			<span class="dot" onclick="currentSlide(5)"></span> 
+  			<span class="dot" onclick="currentSlide(6)"></span> 
+			<span class="dot" onclick="currentSlide(7)"></span> 
+  			<span class="dot" onclick="currentSlide(8)"></span> 
+  			<span class="dot" onclick="currentSlide(9)"></span> 
+  			<span class="dot" onclick="currentSlide(10)"></span> 
+  			<span class="dot" onclick="currentSlide(11)"></span> 
+  			<span class="dot" onclick="currentSlide(12)"></span>   
+		</div>
+
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+  				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+  				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+  				var i;
+  				var slides = document.getElementsByClassName("mySlides");
+  				var dots = document.getElementsByClassName("dot");
+  				if (n > slides.length) {slideIndex = 1}    
+  				if (n < 1) {slideIndex = slides.length}
+  				for (i = 0; i < slides.length; i++) {
+      					slides[i].style.display = "none";  
+  				}
+  				for (i = 0; i < dots.length; i++) {
+      					dots[i].className = dots[i].className.replace(" active", "");
+  				}
+  				slides[slideIndex-1].style.display = "block";  
+  				dots[slideIndex-1].className += " active";
+			}
+		</script>
+	</BODY>
+</HTML>

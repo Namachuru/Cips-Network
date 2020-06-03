@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+		<title>Registration - Cips Classroom</title>
+
+		<style type="text/css">
+		
+<!--
+.style1 {
+			color: #99CC00
+		}
+		
+.style2 {
+			color: #FF6666
+		}
+		
+.style3 {
+			color: #FFCC66
+		}
+		
+.style4 {
+			color: #FFFFFF
+		}
+-->
+
+		</style>
+
+	</head>
+	
+	
+
+<body>
+
+		<h2>Registration - Cips Classroom</h2><br/>
+	
+		
+		<form action="Workings/reg_cips.php" method="post" enctype="multipart/form-data" name="reger" target="_self">
+
+		<div>
+
+			<div id = "personal">
+				<h2 class="style1">Personal Details</h2>
+
+				<br/>
+
+				<table>
+			
+		<tr>
+	
+						<td>Name:</td><td><input type = "text" name = "name"></input></td>
+					</tr>
+
+					<tr>
+						<td>Surname:</td><td><input type = "text" name = "surname"></input></td>
+					</tr>
+					<tr>
+						<td>E-mail:</td><td><input type = "text" name = "e-mail"></input></td>
+					</tr>
+			
+		<tr>
+						<td>P.O.Box:</td><td><input type = "text" name = "boxno"></input></td>
+					</tr>
+
+					<tr>
+						<td>City/Town:</td><td><input type = "text" name = "city"></input></td>
+					</tr>
+					<tr>
+						<td>Country:</td><td><input type = "text" name = "country"></input></td>
+					</tr>
+					<tr>
+						<td>Mobile Phone No.:</td><td><input type = "text" name = "mobile"></input></td>
+					</tr>
+
+					<tr>
+						<td>Passport Photo:</td><td><input name="PassPhoto" type="file" id="PassPhoto" />--Scan your passport photo and attach.</td>
+					</tr>
+
+      					<tr>
+						<td>ID Sample:</td><td><input name="IDSample" type="file" id="IDSample" />--Scan id (Drivers License/Citizen Identity Card/Voters ID) and attach.</td>
+					</tr>
+			
+                <tr>
+						<td>Guardian Name:</td><td><input type = "text" name = "nameGuard"></input></td>
+					</tr>
+			
+		<tr>
+						<td>Guardian Surname:</td><td><input type = "text" name = "snameGuard"></input></td>
+					</tr>
+			
+		<tr>
+						<td>Guardian P.O.Box:</td><td><input type = "text" name = "boxnoGuard"></input></td>
+					</tr>
+
+					<tr>
+						<td>City/Town:</td><td><input type = "text" name = "cityGuard"></input></td>
+					</tr>
+					<tr>
+						<td>Country:</td><td><input type = "text" name = "countryGuard"></input></td>
+					</tr>
+					<tr>
+						<td>Guardian Mobile Phone No.:</td><td><input type = "text" name = "mobileGuard"></input></td>
+					</tr>
+
+		
+                </table>
+
+			</div>
+
+			<div id = "somo">
+		
+		<h2 class="style1">Courses</h2>
+
+				<br/>
+		
+                <table>
+			
+                <tr>
+				
+                <td>Have you learned website design prior to this course? (Check the box on the right if you have)</td><td><input name="yesWeb" type="checkbox"/></td>
+			
+                </tr>
+
+                			<tr>
+				
+                <td>If yes explain briefly what you learned?</td><td><textarea rows="4" cols="50" name = "webKnow"></textarea></td>
+                
+					</tr>
+
+			                <tr>
+				
+                <td>Have you learned computer programming prior to this course? (Check the box on the right if you have)</td><td><input name="yesComp" type="checkbox"/></td>
+			
+                </tr>
+                				<tr>
+				
+                <td>If yes explain briefly what you learned?</td><td><textarea rows="4" cols="50" name = "compKnow"></textarea></td>
+                					</tr>
+		
+                </table>
+		
+                <br/>
+
+
+		                <p>Sellect the Course(s) you wish to take...</p>
+		
+		<table>
+
+					<tr>
+				
+		<td>Internet Foundations</td><td>Cost:      $ 16.50</td><td><input name="Internet_Foundations" type="checkbox"/></td>
+					</tr>						<tr>
+						<td>Computers Today</td><td>Cost:       $  9.50</td><td><input name="Computers_Today" type="checkbox"/></td>
+					</tr>
+			
+		<tr>
+						<td>Storage Media</td><td>Cost:         $ 14.00</td><td><input name="Storage_Media" type="checkbox"/></td>
+					</tr>	
+			
+		<tr>
+						<td>Binary Logic</td><td>Cost:          $  9.00</td><td><input name="Binary_Logic" type="checkbox"/></td>
+					</tr>
+
+					<tr>
+						<td>Binary Computing</td><td>Cost:      $  9.00</td><td><input name="Binary_Computing" type="checkbox"/></td>
+					</tr>
+			
+				
+					<tr>
+						<td>Computer Planning:</td><td>Cost:    $  8.00</td><td><input name="Computer_Planning" type="checkbox"/></td>
+					</tr>
+			
+                <tr>
+						<td>Website Design:</td><td>Cost:       $ 30.00</td><td><input name="Website_Design" type="checkbox"/></td>
+					</tr>
+				</table>
+
+				
+				<p>make paymens via M-Pessa, Tigo Pessa or by PayPal according to the courses you have sellected. </p>
+
+				<p>M-Pessa - 0758 301 361
+		
+				<p>Tigo Pessa - 0658 671 237
+		
+                </br>
+
+                		<table>
+
+                			<tr>
+						<td><img src = "Graphics/mpessa.jpg" width = "130" height = "96"></img></td><td><input name="payme" type="radio" value = "M-Pessa"/></td>
+					</tr>
+			
+                <tr>
+						<td><img src = "Graphics/tigopessa.jpg" width = "130" height = "96"></img></td><td><input name="payme" type="radio" value = "TigoPessa"/></td>
+					</tr>
+                					<tr>
+						<td><img src = "Graphics/paypal.jpg" width = "130" height = "96"></img></td><td><input name="payme" type="radio" value = "PayPal"/></td>
+					</tr>
+
+                			<tr>
+						<td>I don't know how to pay.</td><td><input name="payme" type="radio" value = "Unkonwn"/></td>
+					</tr>
+
+                		</table>
+
+			</div>
+	
+	
+	
+	<div>
+					<h2 class="style1">Education</h2><br/>
+		
+		<div id = "Primary"> 
+			
+		<h3 class="style2">Form Four Qualifications</h3>
+<br/>
+
+					<table>
+
+						<tr>
+
+							<td>Name of School:</td><td><input type = "text" name = "NameP"></input></td>
+						</tr>
+				
+		<tr>
+							<td>Date of Application:</td><td><input type = "text" name = "Pdoa"></input></td>
+						</tr>
+				
+		<tr>
+							<td>Date of Completion:</td><td><input type = "text" name = "Pdoc"></input></td>
+						</tr>
+						<tr>
+							<td>Certificate of Qualification:</td><td><input name="CertPri" type="file" id="CertPri" />--Scan your certificate and attach.</td>
+						</tr>
+						<tr>
+							<td>Certificate of Qualification:</td><td><input name="CertPri2" type="file" id="CertPri2" />--Scan your certificate and attach.</td>
+						</tr>
+					</table>
+			
+		<br/>
+
+				</div>
+
+				
+				<div id = "Form Six">
+			
+		<h3 class="style2">Form Six Qualifications (leave blank if you do not have the qualification)</h3>
+			
+		<br/>
+			
+		<br/>
+
+					<table>
+
+						<tr>
+
+							<td>Name of School:</td><td><input type = "text" name = "NameS"></input><br/></td>
+						</tr>
+				
+		<tr>
+							<td>Date of Application:</td><td><input type = "text" name = "Sdoa"></input><br/></td>
+						</tr>								<tr>
+							<td>Date of Completion:</td><td><input type = "text" name = "Sdoc"></input><br/></td>
+						</tr>
+				
+		<tr>
+							<td>Certificate of Qualification:</td><td><input name="CertSec" type="file" id="CertSec" />--Scan your certificate and attach.</td>
+						</tr>
+				
+		<tr>
+							<td>Certificate of Qualification:</td><td><input name="CertSec2" type="file" id="CertSec2" />--Scan your certificate and attach.</td>
+						</tr>
+			
+		</table>
+
+					<br/>
+
+				</div>
+	
+			
+	<div id = "Tertiary">
+
+					<h3 class="style2">Tertiary Education</h3>
+			
+		<br/>
+	
+		
+		<h4 class="style3">Bachelor Degree (leave blank if you do not have the qualification)</h4>
+			
+		<br/>
+	
+				<table>
+
+						<tr>
+							<td>Name of University:</td><td><input type = "text" name = "NameT"></input></td>
+						</tr>
+						
+<tr>
+							<td>Date of Application:</td><td><input type = "text" name = "Tdoa"></input></td>
+						</tr>
+				
+		<tr>
+							<td>Date of Completion:</td><td><input type = "text" name = "Tdoc"></input></td>
+						</tr>
+				
+		<tr>
+							<td>Certificate of Qualification:</td><td><input name = "CertCollegeB" type= "file" id= "CertCollegeB" />--Scan your certificate and attach.</td>
+						</tr>
+			
+		</table>
+			
+		<br/>
+
+					<h4 class="style3">Masters Degree (leave blank if you do not have the qualification)</h4>
+			
+		<br />
+			
+		<table>
+				
+		<tr>
+							<td>Name of University:</td><td><input type = "text" name = "NameTM"></input></td>
+						</tr>
+				
+		<tr>
+							<td>Date of Application:</td><td><input type = "text" name = "TMdoa"></input></td>
+						</tr>
+				
+		<tr>
+							<td>Date of Completion:</td><td><input type = "text" name = "TMdoc"></input></td>
+						</tr>
+				
+		<tr>
+							<td>Certificate of Qualification:</td><td><input name="CertCollegeTM" type="file" id="CertCollegeTM" />--Scan your certificate and attach.</td>
+						</tr>
+			
+		</table>
+
+					<br/>
+					<h4 class="style3">PHD Degree (leave blank if you do not have the qualification)</h4>
+
+					<br/>
+
+					<table>
+						<tr>
+							<td>Name of University:</td><td><input type = "text" name = "NameTPHD"></input></td>
+						</tr>
+								<tr>
+							<td>Date of Application:</td><td><input type = "text" name = "TPHDdoa"></input></td>
+						</tr>
+				
+		<tr>
+							<td>Date of Completion:</td><td><input type = "text" name = "TPHDdoc"></input></td>
+						</tr>
+				
+		<tr>
+							<td>Certificate of Qualification:</td><td><input name="CertCollegeTPHD" type="file" id="CertCollegeTPHD" />--Scan your certificate and attach.</td>
+						</tr>
+
+					</table>
+			
+		<p>&nbsp;</p>
+			
+		<p>
+						
+<span class="style4">............................................</span><input type="submit" name="Submit" value="Submit" />
+		       	</p>
+				
+ </div>
+
+			</div>
+
+		</div>
+		</form>
+
+	</body>
+
+</html>

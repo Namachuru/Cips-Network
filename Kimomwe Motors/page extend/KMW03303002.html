@@ -1,0 +1,139 @@
+<HTML>
+	<HEAD>
+		<title>KMW03303002</title>
+		<meta name=""viewport" content="width-device-width", initial-scale=1.0">
+		<link rel="stylesheet" href="trend.css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	</HEAD>
+	
+	<BODY>
+		<img class="img-banner" src="../banner.png" alt="Banner"/>
+		<nav>
+			<div class="toggle">
+				<i class="fa fa-bars menu" aria-hidden="true"></i>
+			</div>
+			<ul>
+				<li><a href="../kimomwe motors.php">Home</a></li>
+				<li><a href="../about.html">About</a></li>
+				<li><a href="../classic series.php">Classic Series</a></li>
+				<li><a href="../performer class.php">Performer Class</a></li>
+				<li><a href="../contact.html">Contacts</a></li>
+			</ul>
+		</nav>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.menu').click(function(){
+					$('ul').toggleClass('active');
+				})
+			})
+		</script>
+		
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+  				<div class="numbertext">1 / 11</div>
+				<img src="..\2008 =)) 2010\KMW03303002-1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">2 / 11</div>
+  				<img src="..\2008 =)) 2010\KMW03303002-2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">3 / 11</div>
+ 		 		<img src="..\2008 =)) 2010\KMW03303002-3.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">4 / 11</div>
+				<img src="..\2008 =)) 2010\KMW03303002-4.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">5 / 11</div>
+  				<img src="..\2008 =)) 2010\KMW03303002-5.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<div class="numbertext">6 / 11</div>
+ 		 		<img src="..\2008 =)) 2010\KMW03303002-6.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">7 / 11</div>
+				<img src="..\2008 =)) 2010\KMW03303002-7.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">8 / 11</div>
+				<img src="..\2008 =)) 2010\KMW03303002-8.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">9 / 11</div>
+				<img src="..\2008 =)) 2010\KMW03303002-9.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">10 / 11</div>
+				<img src="..\2008 =)) 2010\KMW03303002-10.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+  				<div class="numbertext">11 / 11</div>
+				<img src="..\2008 =)) 2010\KMW03303002-11.jpg" style="width:100%">
+			</div>
+			
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+  			<span class="dot" onclick="currentSlide(1)"></span> 
+  			<span class="dot" onclick="currentSlide(2)"></span> 
+  			<span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+  			<span class="dot" onclick="currentSlide(5)"></span> 
+  			<span class="dot" onclick="currentSlide(6)"></span> 
+			<span class="dot" onclick="currentSlide(7)"></span> 
+  			<span class="dot" onclick="currentSlide(8)"></span> 
+  			<span class="dot" onclick="currentSlide(9)"></span> 
+  			<span class="dot" onclick="currentSlide(10)"></span> 
+  			<span class="dot" onclick="currentSlide(11)"></span>  
+		</div>
+
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+  				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+  				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+  				var i;
+  				var slides = document.getElementsByClassName("mySlides");
+  				var dots = document.getElementsByClassName("dot");
+  				if (n > slides.length) {slideIndex = 1}    
+  				if (n < 1) {slideIndex = slides.length}
+  				for (i = 0; i < slides.length; i++) {
+      					slides[i].style.display = "none";  
+  				}
+  				for (i = 0; i < dots.length; i++) {
+      					dots[i].className = dots[i].className.replace(" active", "");
+  				}
+  				slides[slideIndex-1].style.display = "block";  
+  				dots[slideIndex-1].className += " active";
+			}
+		</script>
+	</BODY>
+</HTML>
